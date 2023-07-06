@@ -416,7 +416,13 @@ try {
       <p><?php echo $data['comment']?></p>
       
 
- <div class="like_review"><div><i class="fa fa-heart-o heart" id="<?php echo 'l_'.$data['id']?>"onclick="like(this.id)"></i><i class="fa fa-heart heart" id="<?php echo 'nl_'.$data['id']?>" onclick="nlike(this.id)"></i></div><span id="<?php echo 'likes_'.$data['id']?>"><?php echo $data['likes']?></span></div>
+ <div class="like_review">
+     <div>
+     <i class="fa fa-heart-o heart" id="<?php echo 'l_'.$data['id']?>"onclick="like(this.id)"></i>
+     <i class="fa fa-heart heart" id="<?php echo 'nl_'.$data['id']?>" onclick="nlike(this.id)"></i>
+ </div>
+     <span id="<?php echo 'likes_'.$data['id']?>"><?php echo $data['likes']?></span>
+ </div>
       </div>
     </div>
     
