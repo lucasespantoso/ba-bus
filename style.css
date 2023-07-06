@@ -1,0 +1,561 @@
+@media only screen and (max-width: 992px) {
+
+    .nav {
+        flex-wrap: nowrap;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 0;
+    }
+
+    .nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .carousel-caption {
+        max-width: 40%;
+    }
+
+    .col-lg-4 {
+        margin-bottom: 25px;
+    }
+
+    .btn-outline-light,
+    .carousel-caption p {
+        display: none;
+    }
+
+    .form_container {
+        width: 80%;
+    }
+
+    .subtitle {
+        width: 80%;
+    }
+
+    .logo_txt {
+        display: none;
+    }
+
+    footer {
+        height: max-content;
+    }
+
+    .footer_content {
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .footer_content div {
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .our_buses_desc_cont {
+        padding-left: 20px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+    .col-lg-4 {
+        position: relative;
+        height: 420px;
+    }
+
+    .categories-price-button {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .carousel-caption {
+        max-width: 500px;
+    }
+
+    .categories_container {
+        margin-bottom: 50px;
+    }
+
+    .form_container {
+        width: 850px;
+    }
+
+    .subtitle {
+        width: 50%;
+    }
+
+    footer {
+        height: 80px;
+    }
+
+    .footer_content {
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer_content div {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.header-container {
+
+    background-color: #353a40;
+}
+
+header {
+    height: 80px;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.header_content {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    max-width: 1480px;
+}
+
+.btn {
+    padding: 5px 20px;
+}
+
+
+
+#logo-container {
+    color: white;
+}
+
+#logo {
+    max-width: 100px;
+    object-fit: contain;
+    height: 50px;
+}
+
+main {
+    max-width: 1480px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.nav.nav-pills {
+    height: max-content;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: max-content;
+}
+
+.nav-link {
+    color: white;
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link.active {
+    margin: 0 20px;
+}
+
+.nav-link:hover {
+    color: #fedb04;
+}
+
+.slide-image {
+    filter: brightness(50%);
+    width: 100%;
+    height: 450px;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    width: max-content;
+    right: 5%;
+    bottom: 20%;
+    left: inherit;
+    text-align: right;
+}
+
+
+.subtitle {
+    margin: auto;
+    font-size: 15px;
+}
+
+
+.description {
+    text-indent: 3px;
+}
+
+.buttons-container a {
+    margin: 0 5px;
+    width: max-content;
+}
+
+
+.marketing-title-cont {
+    margin: 30px auto;
+    text-align: center;
+    width: 90%;
+}
+
+.marketing-title-cont h3 {
+    text-transform: uppercase;
+}
+
+.categories-img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.recommended-container {
+    position: relative;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.recommended-badge {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    box-shadow: 0 0 15px;
+}
+
+.our_buses_cont {
+    background-image: linear-gradient(to bottom right, #353a40, #353a409c);
+    color: white;
+}
+
+.our_buses_desc_cont {
+    height: max-content;
+    padding-top: 20px;
+}
+
+.our_buses_img_cont {
+    height: 100%;
+    padding: 0;
+}
+
+.our_buses_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.our_buses_txt {
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+.our_buses_btn {
+    font-size: 15px;
+}
+
+.form_container {
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+.form_txt {
+    color: grey;
+}
+
+.aligned-inputs {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.aligned-inputs input {
+    width: 48%;
+}
+
+.textarea_container {
+    margin: 20px 0;
+}
+
+form button[type='submit'] {
+    display: block;
+    margin: auto;
+}
+
+
+.box-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.ticket-box-container {
+    display: inline-block;
+}
+
+.ticket-box {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin: 3px;
+    padding: 25px;
+    border: 1.5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.student {
+    border-color: green;
+}
+
+.trainee {
+    border-color: #00adff;
+}
+
+.junior {
+    border-color: orange;
+}
+
+.clarification {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+.tickets-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tickets-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.medimum {
+    width: 48%;
+}
+
+.medimum p {
+    margin: 0;
+}
+
+.form-control {
+    appearance: auto;
+}
+
+.tickets-inputs .form-control {
+    margin: 10px 0;
+}
+
+.medimum .form-control {
+    margin-top: 0;
+}
+
+select {
+    height: 38px;
+}
+
+.total-price-container {
+    height: 50px;
+    background: #bbe7bd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.total-price-container p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#price {
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.discount {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.form-buttons {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ticket-btn {
+    width: 48%;
+}
+
+
+footer {
+    background: #1e516e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_content {
+    display: inline-flex;
+    font-size: 15px;
+    max-width: 1480px;
+    padding: 10px 0;
+}
+
+
+
+.footer_content div {
+    width: 50%;
+}
+
+
+
+.footer_content a {
+    color: white;
+    text-decoration: none;
+}
+
+#reviews {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.reviews-title {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px;
+}
+
+.review-container {
+    display: flex;
+    padding: 16px;
+    max-width: 550px;
+    margin: 16px auto;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.review-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.review-container:last-child {
+    border: none;
+}
+
+.review-name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.review-avatar {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.rating-container {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+.rating-container span {
+    margin-right: 2px;
+}
+
+.review_date {
+    margin-left: 6px;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+@media only screen and (min-width: 992px) {
+    #reviews {
+        width: 850px;
+        margin: 40px auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .review-container {
+        text-align: center;
+    }
+
+    .review-container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
+
+.checked {
+    color: orange;
+}
+
+.review-container .heart {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.fa.fa-heart {
+    display: none;
+}
+
+.like_review {
+    display: inline-flex;
+    align-content: center;
+}
+
+.like_review span {
+    margin-left: 5px;
+    font-size: 15px;
+    line-height: 1.7;
+}
